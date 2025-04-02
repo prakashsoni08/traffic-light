@@ -1,23 +1,44 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 body{
     background-image: url(https://static.vecteezy.com/system/resources/previews/002/538/971/large_2x/traffic-concept-drawing-vector.jpg);
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center
     
 }
 
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 75.5rem;
+    margin-top: 8rem;
+    
+    
+
+}
+
 .main {
-   
-    display: table;
-    border: 3px solid rgb(65, 64, 64);
-    margin: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid rgb(65, 64, 64); 
     background: rgb(65, 64, 64);
-    position: relative;
-    left: 605px;
-    top: 419px;
+    border-radius: 5px;
+    
 }
 
 .light {
